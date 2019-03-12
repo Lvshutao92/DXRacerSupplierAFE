@@ -90,8 +90,8 @@
     [self.view addSubview:self.scrollview];
     
     
-    self.dataSourceArray = [@[@"订单管理",@"发票管理",@"迪锐克斯",@"报表管理",@"供货管理"]mutableCopy];
-    self.imgArray = [@[@"ddgl",@"fpgl",@"dxracer",@"bbgl",@"ghgl"]mutableCopy];
+    self.dataSourceArray = [@[@"订单管理",@"发票管理",@"报表管理",@"供货管理"]mutableCopy];
+    self.imgArray = [@[@"ddgl",@"fpgl",@"bbgl",@"ghgl"]mutableCopy];
     
     
     
@@ -185,9 +185,6 @@
         [self.navigationController pushViewController:info animated:YES];
     }else if ([sender.titleLabel.text isEqualToString:@"发票管理"]){
         InvioceGuanLiTableViewController *info = [[InvioceGuanLiTableViewController alloc]init];
-        [self.navigationController pushViewController:info animated:YES];
-    }else if ([sender.titleLabel.text isEqualToString:@"迪锐克斯"]) {
-        DXRacerController *info = [[DXRacerController alloc]init];
         [self.navigationController pushViewController:info animated:YES];
     }else if ([sender.titleLabel.text isEqualToString:@"报表管理"]) {
         BaoBiaoTableViewController *info = [[BaoBiaoTableViewController alloc]init];

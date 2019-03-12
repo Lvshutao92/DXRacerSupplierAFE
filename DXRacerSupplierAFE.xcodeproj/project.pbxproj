@@ -68,7 +68,6 @@
 		084028771FF34BD900A093E0 /* XSDDHZ_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 084028761FF34BD900A093E0 /* XSDDHZ_ViewController.m */; };
 		0840287B1FF34D7F00A093E0 /* SLHZ_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 084028791FF34D7F00A093E0 /* SLHZ_Cell.m */; };
 		0840287C1FF34D7F00A093E0 /* SLHZ_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0840287A1FF34D7F00A093E0 /* SLHZ_Cell.xib */; };
-		0844F0C31F9EDE9A004DACA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0844F0C21F9EDE9A004DACA3 /* Images.xcassets */; };
 		0844F0C71F9F3DB9004DACA3 /* Invioce_5_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0844F0C51F9F3DB9004DACA3 /* Invioce_5_Cell.m */; };
 		0844F0C81F9F3DB9004DACA3 /* Invioce_5_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0844F0C61F9F3DB9004DACA3 /* Invioce_5_Cell.xib */; };
 		084E9D001FA0281200923C61 /* Invioce_8_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 084E9CFE1FA0281200923C61 /* Invioce_8_Cell.m */; };
@@ -277,7 +276,6 @@
 		084028781FF34D7F00A093E0 /* SLHZ_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHZ_Cell.h; sourceTree = "<group>"; };
 		084028791FF34D7F00A093E0 /* SLHZ_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHZ_Cell.m; sourceTree = "<group>"; };
 		0840287A1FF34D7F00A093E0 /* SLHZ_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLHZ_Cell.xib; sourceTree = "<group>"; };
-		0844F0C21F9EDE9A004DACA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0844F0C41F9F3DB9004DACA3 /* Invioce_5_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invioce_5_Cell.h; sourceTree = "<group>"; };
 		0844F0C51F9F3DB9004DACA3 /* Invioce_5_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invioce_5_Cell.m; sourceTree = "<group>"; };
 		0844F0C61F9F3DB9004DACA3 /* Invioce_5_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Invioce_5_Cell.xib; sourceTree = "<group>"; };
@@ -979,7 +977,6 @@
 				0820FBF31F974661002557D1 /* Three */,
 				08EB4E871F94542500442B63 /* login */,
 				0879F7C51F90985A006B6AB8 /* other */,
-				0844F0C21F9EDE9A004DACA3 /* Images.xcassets */,
 				0879F7921F9094FE006B6AB8 /* Supporting Files */,
 			);
 			path = DXRacerSupplierAFE;
@@ -1144,7 +1141,7 @@
 				TargetAttributes = {
 					0879F78E1F9094FE006B6AB8 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8549J8BJBB;
+						DevelopmentTeam = P8TD9N5X56;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -1206,7 +1203,6 @@
 				084E9D171FA0426600923C61 /* Invioce_10_Cell.xib in Resources */,
 				084E9D011FA0281200923C61 /* Invioce_8_Cell.xib in Resources */,
 				083B77031FF22AFC00845A72 /* KP_Cell.xib in Resources */,
-				0844F0C31F9EDE9A004DACA3 /* Images.xcassets in Resources */,
 				085265391F983D9D005D12C3 /* Order_6_Cell.xib in Resources */,
 				0818EA901FDE76DB00242D7F /* MineInvioce_12_Cell.xib in Resources */,
 				083B76FE1FF2180900845A72 /* Address_Cell.xib in Resources */,
@@ -1553,12 +1549,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: DXRACER TECHNOLOGY  WUXI. CO.,LTD (8549J8BJBB)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P8TD9N5X56;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DXRacerSupplierAFE/PrefixHeader.pch";
 				INFOPLIST_FILE = DXRacerSupplierAFE/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.SupplierAFE;
+				PRODUCT_BUNDLE_IDENTIFIER = suplier.com.cn.suplier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1576,12 +1572,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: DXRACER TECHNOLOGY  WUXI. CO.,LTD (8549J8BJBB)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P8TD9N5X56;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DXRacerSupplierAFE/PrefixHeader.pch";
 				INFOPLIST_FILE = DXRacerSupplierAFE/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.SupplierAFE;
+				PRODUCT_BUNDLE_IDENTIFIER = suplier.com.cn.suplier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
