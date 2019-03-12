@@ -64,7 +64,7 @@
             UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"稍后再说" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
             }];
             UIAlertAction *sure = [UIAlertAction actionWithTitle:@"立即更新" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/cn/app/jie-zou-da-shi/id1309457456?mt=8"]];
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/cn/app/jie-zou-da-shi/id?mt=8"]];
             }];
             [alert addAction:cancel];
             [alert addAction:sure];
@@ -238,7 +238,7 @@
 }
 - (void)vie2{
     _text2.leftViewMode = UITextFieldViewModeAlways;
-    UIImageView *loginImgV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"user-1"]];
+    UIImageView *loginImgV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"yhm"]];
     loginImgV.frame = CGRectMake(10, 10, 20, 20);
     loginImgV.contentMode = UIViewContentModeScaleAspectFit;
     UIView *lv = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];

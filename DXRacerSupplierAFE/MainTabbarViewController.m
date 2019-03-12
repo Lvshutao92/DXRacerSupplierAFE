@@ -18,7 +18,7 @@
         ShouYeViewController *oneVc = [[ShouYeViewController alloc]init];
         MainNavigationViewController *mainoneVC = [[MainNavigationViewController alloc]initWithRootViewController:oneVc];
         mainoneVC.title = @"主页";
-        oneVc.navigationItem.title = @"迪锐克斯";
+        oneVc.navigationItem.title = @"";
         mainoneVC.tabBarItem.image = [UIImage imageNamed:@"sy"];
         mainoneVC.tabBarItem.selectedImage = [UIImage imageNamed:@"sy"];
         
